@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "1177"
+version = "1.0.0"
+description = "Unofficial CLI for journalen.1177.se: export your medical records (anteckningar, provsvar, diagnoser, läkemedel) to local Markdown/JSON with BankID auth from the terminal"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "markdownify>=1.2.2",
+    "playwright>=1.59.0",
+    "pillow>=12.0",
+    "qrcode>=8.0",
+    "rich>=13.0",
+    "textual>=1.0",
+    "tyro>=1.0",
+    "zxing-cpp>=3.1",
+]
+
+[project.scripts]
+"1177" = "scraper:cli"
+
+[tool.setuptools]
+py-modules = ["scraper"]

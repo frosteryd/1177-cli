@@ -1,0 +1,18 @@
+# your medical data — never commit
+output/
+
+# python
+venv/
+.venv/
+__pycache__/
+*.py[co]
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+
+# local tooling & logs
+.claude/
+.envrc
+*.log
+.DS_Store
