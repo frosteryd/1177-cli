@@ -68,3 +68,6 @@ useful ones:
   on purpose. Dev and agent notes in `AGENTS.md`.
 
 MIT.
+
+Made with ❤️ from the patient side of Karolinska sjukhuset — tack, vården.
+If it made your care easier to follow, [buy me a coffee](https://buymeacoffee.com/frosteryd).
